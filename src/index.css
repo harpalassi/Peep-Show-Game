@@ -13,19 +13,18 @@ body {
   font-family: sans-serif;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   padding: 0;
   margin: 0;
   height: 100%;
 }
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-
 
 .navbar {
   background-color: #123328 !important;
@@ -34,29 +33,25 @@ code {
   position: fixed;
   min-height: 70px;
   width: 100%;
-  
 }
 
 .navbar-nav {
   display: inline;
   font-size: 1.5rem;
-
 }
 
-
-
 .navbar li {
-    display: inline;
-    text-align: center;
-    padding-right: 3rem;
+  display: inline;
+  text-align: center;
+  padding-right: 3rem;
 }
 
 .header {
   padding-top: 8rem;
   text-align: center;
   min-height: 20rem;
-  background-color:#501211;
-  color:white;
+  background-color: #501211;
+  color: white;
   width: 100%;
 }
 
@@ -65,8 +60,7 @@ code {
   border: black 3px solid;
   margin-bottom: 1.5rem;
   margin-right: 0;
-  border-radius: 5px
-  
+  border-radius: 5px;
 }
 
 .navbar > .container {
