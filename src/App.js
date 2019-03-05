@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Wrapper from './components/Wrapper';
+import Navbar from './components/Navbar'
+import Instructions from './components/Instructions'
+import CardContainer from './components/CardContainer'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        a deployment sample
-      </div>
+      <Wrapper>
+      <Navbar />
+      <Instructions />
+      <CardContainer />
+      </Wrapper>
     );
   }
 }
