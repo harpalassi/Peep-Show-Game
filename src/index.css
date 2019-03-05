@@ -25,32 +25,53 @@ code {
     monospace;
 }
 
-.wrapper {
-  align-items: center;
-}
+
 
 .navbar {
-  background-color: indigo !important;
+  background-color: #123328 !important;
   color: white !important;
-  font-size: 2rem;
+  font-size: 1rem;
+  position: fixed;
+  min-height: 70px;
+  width: 100%;
   
 }
 
-li {
-  display: inline-block;
-  padding-right: 5rem;
+.navbar-nav {
+  display: inline;
+  font-size: 1.5rem;
+
 }
 
-.instructions {
-  padding-top: 5rem;
+
+
+.navbar li {
+    display: inline;
+    text-align: center;
+    padding-right: 3rem;
+}
+
+.header {
+  padding-top: 8rem;
   text-align: center;
-  min-height: 15rem;
-  background-color: yellow;
+  min-height: 20rem;
+  background-color:#501211;
+  color:white;
+  width: 100%;
 }
 
 .character {
   float: left;
   border: black 3px solid;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0;
+  border-radius: 5px
   
+}
+
+.navbar > .container {
+  max-width: 100%;
+}
+.cards > .container {
+  max-width: 60%;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Wrapper from './components/Wrapper';
 import Navbar from './components/Navbar'
-import Instructions from './components/Instructions'
+import Header from './components/Header'
 import CardContainer from './components/CardContainer'
 import './App.css';
 
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Wrapper>
       <Navbar />
-      <Instructions />
+      <Header />
       <CardContainer />
       </Wrapper>
     );

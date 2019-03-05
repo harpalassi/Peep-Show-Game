@@ -13,15 +13,16 @@ class Navbar extends Component {
 
     render() {
     return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-fixed-top">
+    <div className="container">
      <ul className="navbar-nav">
-     <li className="navbar-item mx-auto">
-        Peep Show Clicky Game</li>
+     <span class="navbar-brand mb-0 h1">Peep Show Clicky Game</span>
         <li className="navbar-item">
         {this.state.label}</li>
         <li className="navbar-item">
         Score: {this.state.score} | Top Score: {this.state.topScore}</li>
     </ul>
+    </div>
     </nav>
         
     )
