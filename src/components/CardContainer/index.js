@@ -10,6 +10,10 @@ class CardContainer extends Component {
        characters
     }
 
+    handleClick = () => {
+    console.log("clicks")
+    }
+
     render() {
     return (
         <div className="cards">
@@ -21,9 +25,10 @@ class CardContainer extends Component {
             id={character.id}
             name={character.name}
             key={character.name}
-            image={character.image}/>)}
+            image={character.image}
+            onClick={this.handleClick}/>)}
         </div>
-        <div class="w-100 d-none d-md-block"></div>
+        <div className="w-100 d-none d-md-block"></div>
         </div>
         </div>
     )
