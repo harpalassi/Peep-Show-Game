@@ -29,21 +29,26 @@ code {
 .navbar {
   background-color: #123328 !important;
   color: white !important;
-  font-size: 1rem;
+  padding-left: 0 !important;
   position: fixed;
   min-height: 70px;
+  width: 100vw;
+  z-index: 1;
+  /* display: block; */
+  /* white-space: nowrap; */
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+}
+
+ul {
+  margin: 0;
   width: 100%;
 }
 
-.navbar-nav {
-  display: inline;
-  font-size: 1.5rem;
-}
-
 .navbar li {
-  display: inline;
   text-align: center;
-  padding-right: 3rem;
+  display: inline-block;
+  width: 33.3%;
+  
 }
 
 .header {
@@ -63,9 +68,8 @@ code {
   border-radius: 5px;
 }
 
-.navbar > .container {
-  max-width: 100%;
-}
+
 .cards > .container {
+  min-height: 40rem;
   max-width: 60%;
 }

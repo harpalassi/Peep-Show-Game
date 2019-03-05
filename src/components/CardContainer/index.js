@@ -10,8 +10,8 @@ class CardContainer extends Component {
        characters
     }
 
-    handleClick = () => {
-    console.log("clicks")
+    handleClick = (id) => {
+    console.log("clicked #", id)
     }
 
     render() {
