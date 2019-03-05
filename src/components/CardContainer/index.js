@@ -13,6 +13,7 @@ class CardContainer extends Component {
     render() {
     return (
         <div className="container">
+          <div className="row align-items-center">
         
         {this.state.characters.map(character =>
             <CharacterCard 
@@ -20,6 +21,7 @@ class CardContainer extends Component {
             name={character.name}
             key={character.name}
             image={character.image}/>)}
+        </div>
         </div>
     )
 }
