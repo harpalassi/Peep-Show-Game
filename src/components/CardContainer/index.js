@@ -12,7 +12,20 @@ class CardContainer extends Component {
 
     handleClick = (id) => {
     console.log("clicked #", id)
+    this.shuffleCards();
     }
+
+    shuffleCards = () => {
+        const cast = this.state.characters;
+       
+            for (let i = cast.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [cast[i], cast[j]] = [cast[j], cast[i]];
+            }
+            this.setState({characters: cast});
+        }
+        
+    
 
     render() {
     return (
