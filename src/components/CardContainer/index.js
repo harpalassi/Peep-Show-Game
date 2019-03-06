@@ -13,12 +13,22 @@ class CardContainer extends Component {
 
     handleClick = (id) => {
     const hasBeenClicked = this.state.hasBeenClicked;
-    hasBeenClicked.push(id)
-    this.setState({hasBeenClicked})
-    console.log(this.state.hasBeenClicked)
-    console.log("clicked #", id)
-    this.shuffleCards();
+    if (hasBeenClicked.includes(id)) {
+    this.resetGame()}
+     else { 
+            hasBeenClicked.push(id)
+            this.setState({hasBeenClicked})
+            console.log(this.state.hasBeenClicked)
+            console.log("clicked #", id)
+            this.shuffleCards() 
+        }   
 
+    }
+
+    resetGame = () => {
+        alert('game over!')
+        this.shuffleCards() 
+        this.setState({hasBeenClicked: []})
     }
 
     shuffleCards = () => {
