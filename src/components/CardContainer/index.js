@@ -7,12 +7,18 @@ import CharacterCard from '../CharacterCard'
 class CardContainer extends Component {
 
     state = {
-       characters
+       characters,
+       hasBeenClicked: []
     }
 
     handleClick = (id) => {
+    const hasBeenClicked = this.state.hasBeenClicked;
+    hasBeenClicked.push(id)
+    this.setState({hasBeenClicked})
+    console.log(this.state.hasBeenClicked)
     console.log("clicked #", id)
     this.shuffleCards();
+
     }
 
     shuffleCards = () => {
