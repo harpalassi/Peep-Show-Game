@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Click-Memory-Game/static/js/runtime~main.5d61534c.js"
   },
   {
-    "revision": "7f2024ea9e7d734ba1aa",
-    "url": "/Click-Memory-Game/static/js/main.7f2024ea.chunk.js"
+    "revision": "ecd34b07b3da1c033a0c",
+    "url": "/Click-Memory-Game/static/js/main.ecd34b07.chunk.js"
   },
   {
     "revision": "646f3d2a74bef00b3a8f",
     "url": "/Click-Memory-Game/static/js/2.646f3d2a.chunk.js"
   },
   {
-    "revision": "7f2024ea9e7d734ba1aa",
+    "revision": "ecd34b07b3da1c033a0c",
     "url": "/Click-Memory-Game/static/css/main.c38152f7.chunk.css"
   },
   {
-    "revision": "b981be8f0e113ce1335f660e73fa586e",
+    "revision": "23b3e6a668778e34d39d06c36420a5f6",
     "url": "/Click-Memory-Game/index.html"
   }
 ];
