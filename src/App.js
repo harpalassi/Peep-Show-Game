@@ -3,7 +3,6 @@ import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import CardContainer from "./components/CardContainer";
-import "./App.css";
 import characters from "./characters.json";
 import CharacterCard from "./components/CharacterCard";
 import Footer from './components/Footer'
