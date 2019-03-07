@@ -6,6 +6,7 @@ import CardContainer from "./components/CardContainer";
 import "./App.css";
 import characters from "./characters.json";
 import CharacterCard from "./components/CharacterCard";
+import Footer from './components/Footer'
 
 class App extends Component {
   state = {
@@ -74,6 +75,7 @@ class App extends Component {
             />
           ))}
         </CardContainer>
+        <Footer />
       </Wrapper>
     );
   }
