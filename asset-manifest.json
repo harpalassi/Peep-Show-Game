@@ -1,13 +1,13 @@
 {
-  "main.css": "/Click-Memory-Game/static/css/main.c38152f7.chunk.css",
-  "main.js": "/Click-Memory-Game/static/js/main.ecd34b07.chunk.js",
-  "main.js.map": "/Click-Memory-Game/static/js/main.ecd34b07.chunk.js.map",
+  "main.css": "/Click-Memory-Game/static/css/main.f8162219.chunk.css",
+  "main.js": "/Click-Memory-Game/static/js/main.19d537e3.chunk.js",
+  "main.js.map": "/Click-Memory-Game/static/js/main.19d537e3.chunk.js.map",
   "runtime~main.js": "/Click-Memory-Game/static/js/runtime~main.5d61534c.js",
   "runtime~main.js.map": "/Click-Memory-Game/static/js/runtime~main.5d61534c.js.map",
-  "static/js/2.646f3d2a.chunk.js": "/Click-Memory-Game/static/js/2.646f3d2a.chunk.js",
-  "static/js/2.646f3d2a.chunk.js.map": "/Click-Memory-Game/static/js/2.646f3d2a.chunk.js.map",
+  "static/js/2.5bf9b2cd.chunk.js": "/Click-Memory-Game/static/js/2.5bf9b2cd.chunk.js",
+  "static/js/2.5bf9b2cd.chunk.js.map": "/Click-Memory-Game/static/js/2.5bf9b2cd.chunk.js.map",
   "index.html": "/Click-Memory-Game/index.html",
-  "precache-manifest.20682623679fdd35cc37430192f8f2e2.js": "/Click-Memory-Game/precache-manifest.20682623679fdd35cc37430192f8f2e2.js",
+  "precache-manifest.610719e7a22545c20107e6fff5dc19fb.js": "/Click-Memory-Game/precache-manifest.610719e7a22545c20107e6fff5dc19fb.js",
   "service-worker.js": "/Click-Memory-Game/service-worker.js",
-  "static/css/main.c38152f7.chunk.css.map": "/Click-Memory-Game/static/css/main.c38152f7.chunk.css.map"
+  "static/css/main.f8162219.chunk.css.map": "/Click-Memory-Game/static/css/main.f8162219.chunk.css.map"
 }
