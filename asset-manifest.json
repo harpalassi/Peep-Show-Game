@@ -1,13 +1,13 @@
 {
-  "main.css": "/Click-Memory-Game/static/css/main.3dd833c6.chunk.css",
-  "main.js": "/Click-Memory-Game/static/js/main.a886e71a.chunk.js",
-  "main.js.map": "/Click-Memory-Game/static/js/main.a886e71a.chunk.js.map",
-  "runtime~main.js": "/Click-Memory-Game/static/js/runtime~main.5d61534c.js",
-  "runtime~main.js.map": "/Click-Memory-Game/static/js/runtime~main.5d61534c.js.map",
-  "static/js/2.5bf9b2cd.chunk.js": "/Click-Memory-Game/static/js/2.5bf9b2cd.chunk.js",
-  "static/js/2.5bf9b2cd.chunk.js.map": "/Click-Memory-Game/static/js/2.5bf9b2cd.chunk.js.map",
-  "index.html": "/Click-Memory-Game/index.html",
-  "precache-manifest.42d72ab6670c2f43622798ed8b9a6b51.js": "/Click-Memory-Game/precache-manifest.42d72ab6670c2f43622798ed8b9a6b51.js",
-  "service-worker.js": "/Click-Memory-Game/service-worker.js",
-  "static/css/main.3dd833c6.chunk.css.map": "/Click-Memory-Game/static/css/main.3dd833c6.chunk.css.map"
+  "main.css": "/Peep-Show-Game/static/css/main.3dd833c6.chunk.css",
+  "main.js": "/Peep-Show-Game/static/js/main.6efd0385.chunk.js",
+  "main.js.map": "/Peep-Show-Game/static/js/main.6efd0385.chunk.js.map",
+  "runtime~main.js": "/Peep-Show-Game/static/js/runtime~main.9fa740de.js",
+  "runtime~main.js.map": "/Peep-Show-Game/static/js/runtime~main.9fa740de.js.map",
+  "static/js/2.5bf9b2cd.chunk.js": "/Peep-Show-Game/static/js/2.5bf9b2cd.chunk.js",
+  "static/js/2.5bf9b2cd.chunk.js.map": "/Peep-Show-Game/static/js/2.5bf9b2cd.chunk.js.map",
+  "index.html": "/Peep-Show-Game/index.html",
+  "precache-manifest.85c1550a3f156d246aa3ce6868358378.js": "/Peep-Show-Game/precache-manifest.85c1550a3f156d246aa3ce6868358378.js",
+  "service-worker.js": "/Peep-Show-Game/service-worker.js",
+  "static/css/main.3dd833c6.chunk.css.map": "/Peep-Show-Game/static/css/main.3dd833c6.chunk.css.map"
 }
