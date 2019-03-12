@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Peep-Show-Game/precache-manifest.85c1550a3f156d246aa3ce6868358378.js"
+  "/Click-Memory-Game/precache-manifest.c48b5a476b0bbc7dc82b217d1a91d356.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Peep-Show-Game/index.html", {
+workbox.routing.registerNavigationRoute("/Click-Memory-Game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
