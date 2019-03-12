@@ -1,3 +1,5 @@
+// import all necessary components and modules
+
 import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
@@ -8,6 +10,8 @@ import CharacterCard from "./components/CharacterCard";
 import Footer from './components/Footer'
 
 class App extends Component {
+
+  // define the data needed to run the program as state 
   state = {
     characters,
     label: "Click an image to begin!",
@@ -15,7 +19,9 @@ class App extends Component {
     topScore: 0,
     hasBeenClicked: []
   };
-
+  
+  // assigning variables for a user click
+  // calculates scores and resetting the game
   handleClick = id => {
     const { hasBeenClicked, topScore, score } = this.state;
     const newScore = score + 1;
@@ -28,22 +34,17 @@ class App extends Component {
     } else {
       hasBeenClicked.push(id);
       this.setState({ hasBeenClicked, score: newScore, topScore: newTopScore});
-      console.log(this.state.hasBeenClicked);
-      console.log("clicked #", id);
       this.shuffleCards();
     }
   };
 
+  // resets game state to zero
   resetGame = () => {
     this.shuffleCards();
     this.setState({ hasBeenClicked: [], score: 0 });
   };
 
-  // winGame = () => {
-  //   this.shuffleCards();
-  //   this.setState({ hasBeenClicked: [], score: 0 });
-  // };
-
+  //shuffle logic using the fisher-yates algorithm
   shuffleCards = () => {
     const cast = this.state.characters;
 
@@ -54,6 +55,7 @@ class App extends Component {
     this.setState({ characters: cast });
   };
 
+  // rendering the app
   render() {
     return (
       <Wrapper>
