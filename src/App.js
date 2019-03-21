@@ -37,7 +37,7 @@ class App extends Component {
         hasBeenClicked,
         score: newScore,
         topScore: newTopScore,
-        label: 'Correct!'
+        label: 'Well done! Correct!'
       });
       this.shuffleCards();
     }
