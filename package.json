@@ -1,6 +1,6 @@
 {
-  "name": "click-memory-game",
-  "homepage": "https://harpalassi.github.io/Click-Memory-Game",
+  "name": "peep-show-game",
+  "homepage": "https://harpalassi.github.io/peep-show-game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

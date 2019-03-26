@@ -1,11 +1,11 @@
 # Peep Show Memory Game 🤔
 
-*Peep Show Memory Game* is a memory game based on the British television show, [Peep Show](https://en.wikipedia.org/wiki/Peep_Show_(TV_series)), and built in React.
-
+_Peep Show Memory Game_ is a memory game based on the British television show, [Peep Show](<https://en.wikipedia.org/wiki/Peep_Show_(TV_series)>), and built in React.
 
 ![Screenshot](public/images/screenshot.png)
 
-## Getting Started 
+## Getting Started
+
 The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Installation
@@ -18,7 +18,7 @@ To connect to the server, type `yarn start` or `npm start`. Open your favorite b
 
 This app uses React and Bootstrap to create a memory-based click game. Users will click on each character card to earn points. If a card is clicked more than once, the game is over and the score is reset. High Scores will be identified via 'Top Score' in the navigation bar.
 
-🚀 Deployed at: https://harpalassi.github.io/Click-Memory-Game/
+🚀 Deployed at: https://harpalassi.github.io/peep-show-game/
 
 ## Built With
 
